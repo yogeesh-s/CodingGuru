@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/CodingGuru/Assets/Footer Home Page.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jLabel7"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Copyrigyt &#xa9; Coding Guru"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Python"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="500" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="22"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[900, 7640]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/CodingGuru/Assets/Icons/Back.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="750" y="7600" width="100" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/CodingGuru/Assets/Icons/Home.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Homepage"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="600" y="7600" width="130" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Copyrigyt &#xa9; Coding Guru"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="30" y="7600" width="-1" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="36" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Coding Guru"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="150" y="10" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="All Coding Courses in one Place....."/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="150" y="60" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/CodingGuru/Assets/Banner Home Page.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel1"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="0" width="900" height="101"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/CodingGuru/Assets/Card7.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel3"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="20" y="110" width="140" height="100"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Python Programming"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="190" y="120" width="-1" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Python is a popular programming language. It was created by Guido van Rossum, and released in 1991."/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="190" y="150" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/CodingGuru/Assets/Footer Home Page.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="jLabel8"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="7590" width="900" height="50"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&lt;html&gt; &lt;h1&gt;Python Programming Language&lt;/h1&gt;&lt;br&gt; &lt;br&gt; Python is a high-level, general-purpose and a very popular programming language.&lt;br&gt; Python programming language (latest Python 3) is being used in web development,&lt;br&gt; Machine Learning applications, along with all cutting edge technology in Software Industry.&lt;br&gt; Python Programming Language is very well suited for Beginners,&lt;br&gt; also for experienced programmers with other programming languages like C++ and Java.&lt;br&gt;  &lt;br&gt; &lt;br&gt; This specially designed Python tutorial will help you learn Python Programming Language in most efficient way,&lt;br&gt; with the topics from basics to advanced (like Web-scraping, Django, Deep-Learning, etc.) with examples.&lt;br&gt; &lt;br&gt; Below are some facts about Python Programming Language:&lt;br&gt; &lt;br&gt; Python is currently the most widely used multi-purpose, high-level programming language.&lt;br&gt; Python allows programming in Object-Oriented and Procedural paradigms.&lt;br&gt; Python programs generally are smaller than other programming languages like Java.&lt;br&gt;  Programmers have to type relatively less and indentation requirement of the language, makes them readable all the time.&lt;br&gt; Python language is being used by almost all tech-giant companies like &#x2013; Google, Amazon, Facebook, Instagram, Dropbox, Uber&#x2026; etc.&lt;br&gt; The biggest strength of Python is huge collection of standard library which can be used for the following:&lt;br&gt; &lt;br&gt; &lt;li&gt;Machine Learning&lt;/li&gt;&lt;br&gt; &lt;li&gt;GUI Applications (like Kivy, Tkinter, PyQt etc. )&lt;/li&gt;&lt;br&gt; &lt;li&gt;Web frameworks like Django (used by YouTube, Instagram, Dropbox)&lt;/li&gt;&lt;br&gt; &lt;li&gt;Image processing (like OpenCV, Pillow)&lt;/li&gt;&lt;br&gt; &lt;li&gt;Web scraping (like Scrapy, BeautifulSoup, Selenium)&lt;/li&gt;&lt;br&gt; &lt;li&gt;Test frameworks&lt;/li&gt;&lt;br&gt; &lt;li&gt;Multimedia&lt;/li&gt;&lt;br&gt; &lt;li&gt;Scientific computing&lt;/li&gt;&lt;br&gt; &lt;li&gt;Text processing and many more..&lt;/li&gt;&lt;br&gt; &lt;li&gt;Recent Articles on Python !&lt;/li&gt;&lt;br&gt; &lt;li&gt;Python Programming Examples&lt;/li&gt;&lt;br&gt; &lt;li&gt;Python Output &amp; Multiple Choice Questions&lt;/li&gt;&lt;br&gt;  &lt;br&gt; &lt;br&gt; Basics, Input/Output, Data Types, Variables, Operators, Control Flow,&lt;br&gt; Functions, Object Oriented Concepts, Exception Handling, Python Collections,&lt;br&gt; Django Framework, Data Analysis, Numpy, Pandas, Machine Learning with Python,&lt;br&gt; Python GUI, Modules in Python, Working with Database, Misc, Applications and Projects,&lt;br&gt; Multiple Choice Questions&lt;br&gt; &lt;br&gt; &lt;h2&gt;Python Tutorial &lt;/h2&gt;&lt;br&gt; &lt;li&gt;Python Basics&lt;li&gt;&lt;br&gt; &lt;li&gt;Python language introduction&lt;li&gt;&lt;br&gt; &lt;li&gt;Python 3 basics&lt;li&gt;&lt;br&gt; &lt;li&gt;Python The new generation language&lt;li&gt;&lt;br&gt; &lt;li&gt;Important difference between python 2.x and python 3.x with example&lt;li&gt;&lt;br&gt; &lt;li&gt;Keywords in Python | Set 1, Set 2&lt;li&gt;&lt;br&gt; &lt;li&gt;Namespaces and Scope in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Statement, Indentation and Comment in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Structuring Python Programs&lt;li&gt;&lt;br&gt; &lt;li&gt;How to check if a string is a valid keyword in Python?&lt;li&gt;&lt;br&gt; &lt;li&gt;How to assign values to variables in Python and other languages&lt;li&gt;&lt;br&gt; &lt;li&gt;How to print without newline in Python?&lt;li&gt;&lt;br&gt; &lt;li&gt;Decision making&lt;li&gt;&lt;br&gt; &lt;li&gt;Basic calculator program using Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Python Language advantages and applications&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Input/Output&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Taking input in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Taking input from console in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Taking multiple inputs from user in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Python Input Methods for Competitive Programming&lt;li&gt;&lt;br&gt; &lt;li&gt;Vulnerability in input() function &#x2013; Python 2.x&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | Output using print() function&lt;li&gt;&lt;br&gt; &lt;li&gt;How to print without newline in Python?&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | end parameter in print()&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | sep parameter in print()&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | Output Formatting&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Data Types&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Introduction to DataTypes&lt;li&gt;&lt;br&gt; &lt;li&gt;Strings&lt;li&gt;&lt;br&gt; &lt;li&gt;List&lt;li&gt;&lt;br&gt; &lt;li&gt;Tuples&lt;li&gt;&lt;br&gt; &lt;li&gt;Sets&lt;li&gt;&lt;br&gt; &lt;li&gt;Dictionary&lt;li&gt;&lt;br&gt; &lt;li&gt;Arrays&lt;li&gt;&lt;br&gt; &lt;li&gt;Variables&lt;li&gt;&lt;br&gt; &lt;li&gt;Variables, expression condition and function&lt;li&gt;&lt;br&gt; &lt;li&gt;Maximum possible value of an integer in python?&lt;li&gt;&lt;br&gt; &lt;li&gt;Global and local variables in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Packing and unpacking arguments in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Type conversion in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Byte objects vs string in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Print single and multiple variable&lt;li&gt;&lt;br&gt; &lt;li&gt;Swap variable&lt;li&gt;&lt;br&gt; &lt;li&gt;Private variables&lt;li&gt;&lt;br&gt; &lt;li&gt;__name__ (A Special variable) in Python&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Operators&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Basic operator in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Logical and bitwise not operator on boolean&lt;li&gt;&lt;br&gt; &lt;li&gt;Ternary operator&lt;li&gt;&lt;br&gt; &lt;li&gt;Division operator in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Operator Overloading in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Any &amp; all in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Inplace and standard operators in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Operator function in python | Set &#x2013; 1&lt;li&gt;&lt;br&gt; &lt;li&gt;Inplace operator | Set -1&lt;li&gt;&lt;br&gt; &lt;li&gt;Logic Gates in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | a += b is not always a = a + b&lt;li&gt;&lt;br&gt; &lt;li&gt;Difference between == and is operator in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Python Membership and Identity Operators | in, not in, is, is not&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Control Flow&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Loops&lt;li&gt;&lt;br&gt; &lt;li&gt;Loops and Control Statements (continue, break and pass) in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Looping technique in python&lt;li&gt;&lt;br&gt; &lt;li&gt;range vs xrange on python&lt;li&gt;&lt;br&gt; &lt;li&gt;Programs for printing pyramid technique in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Chaining comparison in python&lt;li&gt;&lt;br&gt; &lt;li&gt;else with for&lt;li&gt;&lt;br&gt; &lt;li&gt;switch function&lt;li&gt;&lt;br&gt; &lt;li&gt;Using iteration in python effectively&lt;li&gt;&lt;br&gt; &lt;li&gt;Python Itertools&lt;li&gt;&lt;br&gt; &lt;li&gt;Python __iter__() and __next__() | Converting an object into an iterator&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | Difference between iterable and iterator&lt;li&gt;&lt;br&gt; &lt;li&gt;Generators in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Generators expression in python&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Functions&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Functions in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;class method vs static method in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Write an empty function in Python &#x2013; pass statement&lt;li&gt;&lt;br&gt; &lt;li&gt;Yield instead of Return&lt;li&gt;&lt;br&gt; &lt;li&gt;Return Multiple Values&lt;li&gt;&lt;br&gt; &lt;li&gt;Partial Functions in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;First Class functions in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Precision Handling&lt;li&gt;&lt;br&gt; &lt;li&gt;*args and **kwargs&lt;li&gt;&lt;br&gt; &lt;li&gt;Python closures&lt;li&gt;&lt;br&gt; &lt;li&gt;Function Decorators&lt;li&gt;&lt;br&gt; &lt;li&gt;Decorators in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Decorators with parameters in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Memoization using decorators in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Help function in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | __import__() function&lt;li&gt;&lt;br&gt; &lt;li&gt;Python | range() does not return an iterator&lt;li&gt;&lt;br&gt; &lt;li&gt;Coroutine in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Python bit functions on int (bit_length, to_bytes and from_bytes)&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Object Oriented Concepts&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Python3 Intermediate Level Topics&lt;li&gt;&lt;br&gt; &lt;li&gt;Class, Object and Members&lt;li&gt;&lt;br&gt; &lt;li&gt;Data Hiding and Object Printing&lt;li&gt;&lt;br&gt; &lt;li&gt;Inheritance, examples of object, issubclass and super&lt;li&gt;&lt;br&gt; &lt;li&gt;Polymorphism in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Class and static variable in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Class method and static method in python&lt;li&gt;&lt;br&gt; &lt;li&gt;Changing class members&lt;li&gt;&lt;br&gt; &lt;li&gt;Constructors in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Destructors in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;First class function&lt;li&gt;&lt;br&gt; &lt;li&gt;Metaprogramming with metaclasses&lt;li&gt;&lt;br&gt; &lt;li&gt;Class and instance attribute&lt;li&gt;&lt;br&gt; &lt;li&gt;Reflection&lt;li&gt;&lt;br&gt; &lt;li&gt;Garbage collection&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Exception Handling&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Exception handling&lt;li&gt;&lt;br&gt; &lt;li&gt;User defined Exception&lt;li&gt;&lt;br&gt; &lt;li&gt;Built-in Exception&lt;li&gt;&lt;br&gt; &lt;li&gt;clean up action&lt;li&gt;&lt;br&gt; &lt;li&gt;Nzec error&lt;li&gt;&lt;br&gt; &lt;li&gt;try and except in Python&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Python Collections&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Counters&lt;li&gt;&lt;br&gt; &lt;li&gt;OrderedDict&lt;li&gt;&lt;br&gt; &lt;li&gt;Defaultdict&lt;li&gt;&lt;br&gt; &lt;li&gt;ChainMap&lt;li&gt;&lt;br&gt; &lt;li&gt;NamedTuple&lt;li&gt;&lt;br&gt; &lt;li&gt;DeQue&lt;li&gt;&lt;br&gt; &lt;li&gt;Heap&lt;li&gt;&lt;br&gt; &lt;li&gt;Collections.UserDict&lt;li&gt;&lt;br&gt; &lt;li&gt;Collections.UserList&lt;li&gt;&lt;br&gt; &lt;li&gt;Collections.UserString&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Framework&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Tutorial&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Basics&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Introduction and Installation&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Forms&lt;li&gt;&lt;br&gt; &lt;li&gt;Views In Django&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Models&lt;li&gt;&lt;br&gt; &lt;li&gt;Django Templates&lt;li&gt;&lt;br&gt; &lt;li&gt;ToDo webapp using Django&lt;li&gt;&lt;br&gt; &lt;li&gt;Django News App&lt;li&gt;&lt;br&gt; &lt;li&gt;Weather app using Django&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Data Analysis&lt;/h2&gt;&lt;br&gt; &lt;li&gt;&lt;li&gt;Data visualization using Bokeh&lt;li&gt;&lt;br&gt; &lt;li&gt;Exploratory Data Analysis in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Data visualization with different Charts in Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Data analysis and Visualization with Python&lt;li&gt;&lt;br&gt; &lt;li&gt;Data Analysis &amp; Visualization with Python | Set 2&lt;li&gt;&lt;br&gt; &lt;li&gt;Math operations for Data analysis&lt;li&gt;&lt;br&gt; &lt;li&gt;Getting started with Jupyter Notebook | Python&lt;li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Numpy&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Python Numpy&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | ndarray&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Array Creation&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Data Type Objects&lt;li&gt;&lt;br&gt; &lt;li&gt;Data type Object (dtype) in NumPy&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Indexing&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Basic Slicing and Advanced Indexing&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Iterating Over Array&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Binary Operations&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Linear Algebra&lt;li&gt;&lt;br&gt; &lt;li&gt;Numpy | Sorting, Searching and Counting&lt;/li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Pandas&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Pandas Tutorial&lt;/li&gt;&lt;br&gt; &lt;li&gt;Python | Pandas DataFrame&lt;/li&gt;&lt;br&gt; &lt;li&gt;Creating a Pandas DataFrame&lt;/li&gt;&lt;br&gt; &lt;li&gt;Dealing with Rows and Columns in Pandas DataFrame&lt;/li&gt;&lt;br&gt; &lt;li&gt;Indexing and Selecting Data with Pandas&lt;/li&gt;&lt;br&gt; &lt;li&gt;Boolean Indexing in Pandas&lt;/li&gt;&lt;br&gt; &lt;li&gt;Conversion Functions in Pandas DataFrame&lt;/li&gt;&lt;br&gt; &lt;li&gt;Iterating over rows and columns in Pandas DataFrame&lt;/li&gt;&lt;br&gt; &lt;li&gt;Working with Missing Data in Pandas&lt;/li&gt;&lt;br&gt; &lt;li&gt;Python | Pandas Series&lt;/li&gt;&lt;br&gt; &lt;li&gt;Data analysis using Pandas&lt;/li&gt;&lt;br&gt; &lt;li&gt;Read csv using pandas.read_csv()&lt;/li&gt;&lt;br&gt; &lt;br&gt; &lt;h2&gt;Machine Learning with Python&lt;/h2&gt;&lt;br&gt; &lt;li&gt;Machine Learning Tutorial&lt;/li&gt;&lt;br&gt; &lt;li&gt;Linear Regression&lt;/li&gt;&lt;br&gt; &lt;li&gt;Understanding Logistic Regression&lt;/li&gt;&lt;br&gt; &lt;li&gt;K means Clustering&lt;/li&gt;&lt;br&gt; &lt;li&gt;Python | Image Classification using keras&lt;/li&gt;&lt;br&gt; &lt;li&gt;creating a simple machine learning model&lt;/li&gt;&lt;br&gt; &lt;li&gt;Python | Implementation of Movie Recommender System&lt;/li&gt;&lt;br&gt;  &lt;/html&gt;"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="40" y="240" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
